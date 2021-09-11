@@ -1,0 +1,7 @@
+.intro__triangle {
+    width: 50;
+	height: 50;
+	border-bottom: 500px solid #b2b2b2;; 
+	border-left: 150px solid transparent;
+
+}

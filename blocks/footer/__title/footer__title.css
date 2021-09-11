@@ -1,0 +1,10 @@
+.footer__title {
+    border: 2px solid red;
+    margin: 40px auto 25px auto;
+    color: white;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.06;
+}

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Пономаренко - Портфолио</title>
+</head>
+
+<body class="root">
+
+  <header class="header" ;>
+
+    <nav class="header__menu anim-items">
+      <a href="#contacts" class="button button__header button__grey"><b>Контакты</b></a>
+      <a href="#projects" class="button button__header"><b>Проекты</b></a>
+      <a href="#skills" class="button button__header button__grey"><b>Навыки</b></a>
+      <a href="#about" class="button button__header"><b>Обо мне</b></a>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <section class="intro">
+      <div class="intro__wrapper">
+        <div class="intro__block"></div>
+        <span class="intro__triangle"></span>
+        <img src="/images/photo.png" alt="myPhoto" class="intro__photo">
+      </div>
+      <div class="intro__hello">
+        <h1 class="intro__title">Привет! Я - <br><span>Александр</span></h1>
+        <p class="intro__description">Веб-разработчик</p>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="about__title">Обо мне</h2>
+      <p class="about__paragraph">Привет! Я - Александр Пономаренко, фронт-енд разработчик. Успешно закончил курс
+        Веб-разработка в <span>Яндекс.Практикум</span>. В рамках учебных проектов получил хороший опыт и навыки работы
+        с <span>HTML, CSS, JS, React</span>, опыт написания бэка на Node.js. Нравится заниматься полезными проектами.
+        Верстка – интересная творческая работа (даже работая по макету) – люблю творчество в любом виде. А работа с
+        JS/React – увлекательное создание "живого" отзывчивого механизма! А это прямо мой профиль по образованию ).
+        Разработка давно стала хобби, постоянно изучаю новые технологии и практикуюсь. Ведь здесь
+        огромный простор для новых идей: дизайн и интерфейсы, мультимедиа и интерактивность, логика и бэкенд.
+      </p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="skills__title">Навыки</h2>
+      <div class="skills__table">
+        <div class="skills__item skills__left-five anim-items">
+          <img src="./images/html5.png" alt="HTML5" class="skills__item-image">
+          <p class="skills__item-title">HTML5</p>
+        </div>
+        <div class="skills__item skills__left-four anim-items">
+          <img src="./images/css3.png" alt="CSS3" class="skills__item-image">
+          <p class="skills__item-title">CSS3</p>
+        </div>
+        <div class="skills__item skills__left-three anim-items">
+          <img src="./images/sass.png" alt="SASS" class="skills__item-image">
+          <p class="skills__item-title">SASS</p>
+        </div>
+        <div class="skills__item skills__left-two anim-items">
+          <img src="./images/js.png" alt="JS" class="skills__item-image">
+          <p class="skills__item-title">JavaScript</p>
+        </div>
+        <div class="skills__item skills__left-one anim-items">
+          <img src="./images/react.png" alt="React" class="skills__item-image">
+          <p class="skills__item-title">React</p>
+        </div>
+        <div class="skills__item skills__left-five anim-items">
+          <img src="./images/nodejs.png" alt="NodeJS" class="skills__item-image">
+          <p class="skills__item-title">NodeJS</p>
+        </div>
+        <div class="skills__item skills__left-four anim-items">
+          <img src="./images/mongodb.png" alt="MongoDB" class="skills__item-image">
+          <p class="skills__item-title">MongoDB</p>
+        </div>
+        <div class="skills__item skills__left-three anim-items">
+          <img src="./images/git.png" alt="GIT" class="skills__item-image">
+          <p class="skills__item-title">GIT</p>
+        </div>
+        <div class="skills__item skills__left-two anim-items">
+          <img src="./images/webpack.png" alt="FIGMA" class="skills__item-image">
+          <p class="skills__item-title">Webpack</p>
+        </div>
+        <div class="skills__item skills__left-one anim-items">
+          <img src="./images/figma.png" alt="FIGMA" class="skills__item-image">
+          <p class="skills__item-title">FIGMA</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="projects__title">Проекты</h2>
+
+      <div class="project">
+        <img src="./images/p-MovieExplorer.png" alt="Проект Movie Explorer" class="project__image anim-items">
+        <div class="project__info">
+          <h3 class="project__title">Movie Explorer</h3>
+          <p class="project__description">Совместный проект с фестивалем документального кино BeatFilm. Фронт + бэк.
+            Поиск документальных
+            фильмов по базе фестиваля, занесение в избранные. Регистрация/авторизация/личный кабинет.<br>
+            - Front + back<br>
+            - Работа со сторонним API;<br>
+            - Регистрация/авторизация;<br>
+            - Хеширование паролей/ безопасное хранение токенов;<br>
+            - Валидация форм и запросов;<br>
+            - Адаптивная верстка по БЭМ<br>
+          </p>
+          <div class="project__skills">HTML, CSS, REACT, Node.js (Express), MongoDB</div>
+          <a href="https://github.com/santelar/movies-explorer-frontend" class="button button__project anim-items"
+            target="blank"><b>Код проекта (github)</b></a>
+        </div>
+      </div>
+      <div class="bookmark">
+        <span class="bookmark__block"></span>
+        <span class="triangle"></span>
+      </div>
+
+      <div class="project">
+        <img src="./images/p-Mesto.png" alt="Проект" class="project__image anim-items">
+        <div class="project__info">
+          <h3 class="project__title">Mesto - Проект на React + бэк на Node.js.</h3>
+          <p class="project__description">Сайт библиотека фотографий. Простая регистрация и авторизация
+            (без подтверждения почты/ телефона). Редактирование профиля; добавить/удалить/лайки фотографий.<br>
+            - Адаптивная верстка + бэк с БД;<br>
+            - Регистрация/авторизация;<br>
+            - Добавить/удалить/лайк фото;<br>
+            - Хеширование паролей;<br>
+            - Создание и безопасное хранение токенов.<br></p>
+          <div class="project__skills">HTML, CSS, REACT, Node.js (Express), MongoDB</div>
+          <a href="https://github.com/santelar/react-mesto-api-full" class="button button__project anim-items"
+            target="blank"><b>Код проекта (github)</b></a>
+        </div>
+      </div>
+      <div class="bookmark">
+        <span class="bookmark__block"></span>
+        <span class="triangle"></span>
+      </div>
+
+      <div class="project">
+        <img src="./images/p-RussianTravel.png" alt="Проект" class="project__image anim-items">
+        <div class="project__info">
+          <h3 class="project__title">Russian Travel - сайт о путешествиях по России</h3>
+          <p class="project__description">Учебная работа на курсе Яндекс.Практикум. Адаптивная
+            верстка по готовому макету в Figma. Работа выполнена и оформлена по методологии БЭМ.<br>
+            - Построение сеток Grid Layout;<br>
+            - Flexbox-верстка;<br>
+            - Векторная графика;<br>
+            - Использование нетиповых шрифтов;<br>
+            - Анимация и эффекты объектов.<br>
+            - Работа с Figma и Perfect Pixel.<br>
+          </p>
+          <div class="project__skills">HTML, CSS</div>
+          <a href="https://github.com/santelar/russian-travel" class="button button__project anim-items" target="blank"><b>Код
+              проекта (github)</b></a>
+        </div>
+      </div>
+      <div class="bookmark">
+        <span class="bookmark__block"></span>
+        <span class="triangle"></span>
+      </div>
+
+      <div class="project">
+        <img src="./images/p-howToLearn.png" alt="Проект 1" class="project__image anim-items">
+        <div class="project__info">
+          <h3 class="project__title">Научиться учиться - эффективные техники и методики обучения</h3>
+          <p class="project__description">Учебная работа на курсе Яндекс.Практикум. Верстка по
+            готовому макету с заданными параметрами. Работа выполнена и оформлена по методологии БЭМ.<br>
+            - Flexbox-верстка;<br>
+            - Построение сеток и таблиц;<br>
+            - Работа с изображениями;<br>
+            - Различные варианты позиционирования;<br>
+            - Подключение медиаконтанта со стороннего ресурса (YouTube);<br>
+            - Анимация и эффекты объектов.<br>
+          </p>
+          <div class="project__skills">HTML, CSS</div>
+          <a href="https://github.com/santelar/how-to-learn" class="button button__project anim-items" target="blank"><b>Код
+              проекта (github)</b></a>
+        </div>
+      </div>
+      <div class="bookmark">
+        <span class="bookmark__block"></span>
+        <span class="triangle"></span>
+      </div>
+
+      <div class="project">
+        <img src="./images/p-TinkoffStories.png" alt="Проект" class="project__image anim-items">
+        <div class="project__info">
+          <h3 class="project__title">Tinkoff Business - Stories</h3>
+          <p class="project__description">Тестовая работа по вакансии - Tinkoff Business - Stories.
+            Верстка по макету (для моб. приложения). Работа выполнена и оформлена по БЭМ.<br>
+            - Построение сеток Grid Layout;<br>
+            - Flexbox-верстка;<br>
+            - Использование нетиповых шрифтов;<br>
+            - Работа с графическим редактором Figma;<br>
+            - Различные варианты позиционирования;<br>
+            - Векторная графика;<br>
+          </p>
+          <div class="project__skills">HTML, CSS</div>
+          <a href="https://github.com/santelar/Tinkoff_test-Stories" class="button button__project anim-items"
+            target="blank"><b>Код проекта (github)</b></a>
+        </div>
+      </div>
+      <div class="bookmark">
+        <span class="bookmark__block"></span>
+        <span class="triangle"></span>
+      </div>
+
+      <div class="project">
+        <img src="./images/p-Frozeneon.png" alt="Проект" class="project__image anim-items">
+        <div class="project__info">
+          <h3 class="project__title">Frozeneon</h3>
+          <p class="project__description">Тестовая работа по вакансии - Frozeneon. Страница магазина игры -
+            онлайн РПГ Frozeneon. Адаптивная верстка по макету. Grid/Flex. Сборка Webpack.<br>
+            - Построение сеток Grid Layout;<br>
+            - Flexbox-верстка;<br>
+            - Использование SASS/SCSS;<br>
+            - Работа с графическим редактором Figma;<br>
+            - Различные варианты позиционирования;<br>
+            - Сборка проекта - Webpack;<br>
+          </p>
+          <div class="project__skills">HTML, CSS, SASS/SCSS</div>
+          <a href="https://github.com/santelar/Test---Frozeneon" class="button button__project anim-items" target="blank"><b>Код
+              проекта (github)</b></a>
+        </div>
+      </div>
+      <div class="bookmark">
+        <span class="bookmark__block"></span>
+        <span class="triangle"></span>
+      </div>
+
+    </section>
+
+    <a class="scroll-up"><img src="./images/up.png" class="scroll-up__img"></a>
+
+  </main>
+
+  <footer class="footer" id="contacts">
+
+    <h3 class="footer__title">Контакты</h3>
+    <div class="bookmark">
+      <span class="bookmark__block"></span>
+      <span class="triangle"></span>
+    </div>
+    <h4 class="footer__fio">Александр Пономаренко</h4>
+    <div class="footer__contacts">
+      <a href="https://t.me/PonomarenkoAlexander" alt="Telegram-logo" class="footer__contact" target="blank">
+        <img src="./images/telegram.png" class="footer__logo">
+        <h4 class="footer__contact-title">Telegram</h4>
+        <p class="footer__contact-adress">@PonomarenkoAlexander</p>
+      </a>
+      <a href="https://www.linkedin.com/in/александр-пономаренко-772884207/" alt="Telegram-logo" class="footer__contact"
+        target="blank">
+        <img src="./images/linkedIn.png" class="footer__logo">
+        <h4 class="footer__contact-title">LinkedIn</h4>
+        <p class="footer__contact-adress">https://www.linkedin.com/</p>
+      </a>
+      <a href="https://github.com/santelar" alt="Telegram-logo" class="footer__contact" target="blank">
+        <img src="./images/github.png" class="footer__logo">
+        <h4 class="footer__contact-title">Github</h4>
+        <p class="footer__contact-adress">https://github.com/santelar</p>
+      </a>
+      <a href="mailto:ap.programm@yandex.ru" alt="Telegram-logo" class="footer__contact" target="blank">
+        <img src="./images/email.png" class="footer__logo">
+        <h4 class="footer__contact-title">E-mail</h4>
+        <p class="footer__contact-adress">ap.programm@yandex.ru</p>
+      </a>
+    </div>
+    <div class="bookmark bookmark__type_right">
+      <span class="bookmark__block"></span>
+      <span class="triangle-right"></span>
+    </div>
+
+  </footer>
+
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

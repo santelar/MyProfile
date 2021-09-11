@@ -1,0 +1,10 @@
+.project {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 10px 30px 20px;
+  border-bottom: 3px solid black;
+}
+
+.project:last-of-type {
+  border-bottom: none;
+}

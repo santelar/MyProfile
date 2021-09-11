@@ -1,0 +1,12 @@
+.button__project {
+    margin: 0;
+    min-width: 200px;
+    text-align: center;
+    padding: 5px;
+    border: 4px solid #ffff63;
+    border-radius: 5px;
+}
+
+.button__project:hover {
+    border: 2px solid #808080;
+}

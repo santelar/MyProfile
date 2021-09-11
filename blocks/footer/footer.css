@@ -1,0 +1,7 @@
+.footer {
+  margin: 0 auto;
+  background: black;
+  padding: 25px auto;
+  display: flex;
+  flex-direction: column;
+}

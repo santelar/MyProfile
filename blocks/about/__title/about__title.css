@@ -1,0 +1,11 @@
+.about__title {
+    margin: 40px 0 15px 0;
+    padding: 0;
+    max-width: 500px;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.06;
+    color: #ffff63;
+}
