@@ -1,6 +1,6 @@
 **Страница - Портфолио**
 
-https://santelar.github.io/MyPortfolio/
+https://santelar.github.io/MyProfile/
 
 ### Страница визитка со ссылками на работы и перечнем используемых технологий.
 
