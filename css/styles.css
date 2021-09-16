@@ -37,7 +37,7 @@
   margin-left: -1px;
   color: #cfd2d3;
   background-color: black;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -125,9 +125,9 @@
           flex-direction: column;
 }
 .root .main .intro .intro__hello .intro__title {
-  margin: 125px 18vw 0 0;
+  margin: 125px 15vw 0 0;
   padding: 0;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: normal;
   font-size: 48px;
@@ -145,7 +145,7 @@
 }
 .root .main .intro .intro__hello .intro__description {
   margin-top: 20px;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -170,7 +170,7 @@
   margin: 40px 0 15px 0;
   padding: 0;
   max-width: 500px;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -181,7 +181,7 @@
   margin: 0 0 40px 0;
   padding: 0 50px;
   max-width: 1000px;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -210,7 +210,7 @@
 }
 .root .main .skills .skills__title {
   margin: 50px auto 25px auto;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -287,7 +287,7 @@
 .root .main .skills .skills__table .skills__item .skills__item-title {
   margin: 0;
   padding: 0;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -347,7 +347,7 @@
 }
 .root .main .projects .projects__title {
   text-align: center;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -389,7 +389,7 @@
 .root .main .projects .project .project__info .project__title {
   margin: 0;
   padding: 0;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -400,7 +400,7 @@
 .root .main .projects .project .project__info .project__description {
   margin: 0;
   padding: 10px 0 5px 30px;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -408,7 +408,7 @@
 }
 .root .main .projects .project .project__info .project__skills {
   padding: 0 0 10px 40px;
-  font-family: inherit;
+  font-family: "Source";
   font-style: bold;
   font-weight: bold;
   font-size: 16px;
@@ -419,7 +419,7 @@
   display: inline-block;
   color: #cfd2d3;
   background-color: black;
-  font-family: inherit;
+  font-family: "Source";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -487,7 +487,7 @@
 .root .footer {
   margin: 0 auto;
   padding: 40px 0 0 0;
-  background: black;
+  background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -499,8 +499,8 @@
 }
 .root .footer .footer__title {
   margin: 0 auto 25px auto;
-  color: white;
-  font-family: inherit;
+  color: #cfd2d3;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -537,8 +537,8 @@
 }
 .root .footer .footer__fio {
   margin: 20px auto;
-  color: white;
-  font-family: inherit;
+  color: #cfd2d3;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -575,8 +575,8 @@
 .root .footer .footer__contacts .footer__contact .footer__contact-title {
   margin: 0 100px 0 0;
   padding: 0;
-  color: white;
-  font-family: inherit;
+  color: #cfd2d3;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -585,8 +585,8 @@
 .root .footer .footer__contacts .footer__contact .footer__contact-adress {
   margin: 0;
   padding: 0;
-  color: white;
-  font-family: inherit;
+  color: #cfd2d3;
+  font-family: "Source";
   font-style: normal;
   font-weight: bold;
   font-size: 14px;

@@ -1,9 +1,27 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/font-face.css);
 
+$color_bg-main: #e8eaeb;
+$color_bg-main-darker: rgb(205, 205, 205);
+$color_bg-dark: black;
+$color_bg-dark-lighter: rgb(27, 26, 35);
+$color_buttong-main: black;
+$color_buttong-second: rgb(27, 26, 35);
+$color_buttong-contrast: #ffff63;
+$color_buttong-active: rgb(205, 205, 205);
+$color_font-main: black;
+$color_font-light: #cfd2d3;
+$color_font-contrast: #ffff63;
+$color_font-hint: red;
+$color_font-name: rgb(66, 91, 146);
+$color_bookmark: #ffff63;
+
+$font_main: 'Source';
+$font_second: 'Denistina';
+
 .root {
-    font-family: 'Source', 'Inter', 'Helvetica Neue', Arial, sans-serif;
-    background: #e8eaeb;
+    font-family: $font_main, 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    background: $color_bg-main;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     box-sizing: border-box;
@@ -26,9 +44,9 @@
                 padding-top: 5px;
                 display: inline-block;
                 margin-left: -1px;
-                color: #cfd2d3;
-                background-color: black;
-                font-family: inherit;
+                color: $color_font-light;
+                background-color: $color_buttong-main;
+                font-family: $font_main;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 17px;
@@ -40,12 +58,12 @@
                     transform: skew(45deg);
                 }
                 &:hover {
-                    color: black;
-                    background-color: #ffff63;
+                    color: $color_font-main;
+                    background-color: $color_buttong-contrast;
                     transition: 0.3s;
                 }
                 &:active {
-                    background-color: rgb(205, 205, 205);
+                    background-color: $color_buttong-active;
                 }
             }
             .button__header {
@@ -54,7 +72,7 @@
                 padding: 8px;
             }
             .button__grey {
-                background-color: rgb(27, 26, 35);
+                background-color: $color_buttong-second;
             }
         }
         .active {
@@ -67,7 +85,7 @@
         .intro {
             max-width: 1440px;
             margin: 0 auto;
-            background-color: rgb(205, 205, 205);
+            background-color: $color_bg-main-darker;
             position: relative;
             display: flex;
             flex-direction: row-reverse;
@@ -78,12 +96,12 @@
                 .intro__block {
                     height: 640px;
                     width: 27vw;
-                    background-color: black;
+                    background-color: $color_bg-dark;
                 }
                 .intro__triangle {
                     width: 50;
                     height: 50;
-                    border-bottom: 640px solid black; 
+                    border-bottom: 640px solid $color_bg-dark; 
                     border-left: 90px solid transparent;
                 }
                 
@@ -100,17 +118,17 @@
                 display: flex;
                 flex-direction: column;
                 .intro__title {
-                    margin: 125px 18vw 0 0;
+                    margin: 125px 15vw 0 0;
                     padding: 0;
-                    font-family: inherit;
+                    font-family: $font_main;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 48px;
                     line-height: 2.7;
-                    color: black;
+                    color: $color_font-main;
                     span {
-                        color: rgb(66, 91, 146);
-                        font-family: 'Denistina';
+                        color: $color_font-name;
+                        font-family: $font_second;
                         font-weight: normal;
                         font-style: italic, bold;
                         font-size: 88px;
@@ -120,7 +138,7 @@
                 }
                 .intro__description {
                     margin-top: 20px;
-                    font-family: inherit;
+                    font-family: $font_main;
                     font-style: normal;
                     font-weight: bold;
                     font-size: 22px;
@@ -132,7 +150,7 @@
         .about {
             max-width: 1440px;
             margin: 0 auto;
-            background-color: rgb(27, 26, 35);
+            background-color: $color_bg-dark-lighter;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -140,27 +158,27 @@
                 margin: 40px 0 15px 0;
                 padding: 0;
                 max-width: 500px;
-                font-family: inherit;
+                font-family: $font_main;
                 font-style: normal;
                 font-weight: bold;
                 font-size: 20px;
                 line-height: 1.06;
-                color: #ffff63;
+                color: $color_font-contrast;
             }
             .about__paragraph {
                 margin: 0 0 40px 0;
                 padding: 0 50px;
                 max-width: 1000px;
-                font-family: inherit;
+                font-family: $font_main;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 16px;
                 line-height: 2.06;
-                color: #ffff63;
+                color: $color_font-contrast;
                 text-align: justify;
                 text-indent: 25px;
                 span {
-                    color: red;
+                    color: $color_font-hint;
                 }
             }
         }
@@ -168,13 +186,13 @@
         .skills {
             max-width: 1440px;
             margin: 0 auto;
-            background-color: #e8eaeb;
+            background-color: $color_bg-main;
             display: flex;
             flex-direction: column;
             align-items: center;
             .skills__title {
                 margin: 50px auto 25px auto;
-                font-family: inherit;
+                font-family: $font_main;
                 font-style: normal;
                 font-weight: bold;
                 font-size: 20px;
@@ -199,7 +217,7 @@
                     .skills__item-title {
                         margin: 0;
                         padding: 0;
-                        font-family: inherit;
+                        font-family: $font_main;
                         font-style: normal;
                         font-weight: bold;
                         font-size: 16px;
@@ -246,7 +264,7 @@
             flex-direction: column;
             .projects__title {
                 text-align: center;
-                font-family: inherit;
+                font-family: $font_main;
                 font-style: normal;
                 font-weight: bold;
                 font-size: 20px;
@@ -273,7 +291,7 @@
                     .project__title {
                         margin: 0;
                         padding: 0;
-                        font-family: inherit;
+                        font-family: $font_main;
                         font-style: normal;
                         font-weight: bold;
                         font-size: 16px;
@@ -284,7 +302,7 @@
                     .project__description {
                         margin: 0;
                         padding: 10px 0 5px 30px;
-                        font-family: inherit;
+                        font-family: $font_main;
                         font-style: normal;
                         font-weight: normal;
                         font-size: 14px;
@@ -292,7 +310,7 @@
                     }
                     .project__skills {
                         padding: 0 0 10px 40px;
-                        font-family: inherit;
+                        font-family: $font_main;
                         font-style: bold;
                         font-weight: bold;
                         font-size: 16px;
@@ -301,9 +319,9 @@
                     .button {
                         margin: 0 0 0 auto;
                         display: inline-block;
-                        color: #cfd2d3;
-                        background-color: black;
-                        font-family: inherit;
+                        color: $color_font-light;
+                        background-color: $color_buttong-main;
+                        font-family: $font_main;
                         font-style: normal;
                         font-weight: normal;
                         font-size: 16px;
@@ -315,12 +333,12 @@
                             transform: skew(45deg);
                         }
                         &:hover {
-                            color: black;
-                            background-color: #ffff63;
+                            color: $color_font-main;
+                            background-color: $color_buttong-contrast;
                             transition: 0.3s;
                         }
                         &:active {
-                            background-color: rgb(205, 205, 205);
+                            background-color: $color_buttong-active;
                         }
                     }
                     .button__project {
@@ -329,7 +347,7 @@
                         padding: 5px;
                     }
                     .button__grey {
-                        background-color: rgb(27, 26, 35);
+                        background-color: $color_buttong-second;
                     }
                 }
             }
@@ -338,12 +356,12 @@
                 .bookmark__block {
                     height: 30px;
                     width: 67%;
-                    background-color: #ffff63;
+                    background-color: $color_bookmark;
                 }
                 .triangle {
                     width: 0;
                     height: 0;
-                    border-top: 30px solid #ffff63;
+                    border-top: 30px solid $color_bookmark;
                     border-right: 30px solid transparent;
                 }
 
@@ -373,14 +391,14 @@
 
         margin: 0 auto;
         padding: 40px 0 0 0;
-        background: black;
+        background-color: $color_bg-dark;
         display: flex;
         flex-direction: column;
         height: 500px;
         .footer__title {
             margin: 0 auto 25px auto;
-            color: white;
-            font-family: inherit;
+            color: $color_font-light;
+            font-family: $font_main;
             font-style: normal;
             font-weight: bold;
             font-size: 20px;
@@ -391,12 +409,12 @@
             .bookmark__block {
                 height: 30px;
                 width: 67%;
-                background-color: #ffff63;
+                background-color: $color_bookmark;
             }
             .triangle {
                 width: 0;
                 height: 0;
-                border-top: 30px solid #ffff63;
+                border-top: 30px solid $color_bookmark;
                 border-right: 30px solid transparent;
             }
         }
@@ -406,14 +424,14 @@
             .triangle-right {
                 width: 0;
                 height: 0;
-                border-top: 30px solid #ffff63;
+                border-top: 30px solid $color_bookmark;
                 border-left: 30px solid transparent;
             }
         }
         .footer__fio {
             margin: 20px auto;
-            color: white;
-            font-family: inherit;
+            color: $color_font-light;
+            font-family: $font_main;
             font-style: normal;
             font-weight: bold;
             font-size: 18px;
@@ -439,8 +457,8 @@
                 .footer__contact-title {
                     margin: 0 100px 0 0;
                     padding: 0;
-                    color: white;
-                    font-family: inherit;
+                    color: $color_font-light;
+                    font-family: $font_main;
                     font-style: normal;
                     font-weight: bold;
                     font-size: 16px;
@@ -449,8 +467,8 @@
                 .footer__contact-adress {
                     margin: 0;
                     padding: 0;
-                    color: white;
-                    font-family: inherit;
+                    color: $color_font-light;
+                    font-family: $font_main;
                     font-style: normal;
                     font-weight: bold;
                     font-size: 14px;
@@ -577,7 +595,7 @@
                         width: 27vw;
                     }
                     .intro__triangle {
-                        border-bottom: 480px solid black; 
+                        border-bottom: 480px solid $color_bg-dark; 
                     }
                     .intro__photo {
                         left: -90px;
@@ -625,7 +643,7 @@
                         width: 43vw;
                     }
                     .intro__triangle {
-                        border-bottom: 380px solid black; 
+                        border-bottom: 380px solid $color_bg-dark; 
                     }
                     .intro__photo {
                         left: 30vw;
@@ -752,20 +770,6 @@
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
